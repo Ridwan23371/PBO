@@ -1,0 +1,44 @@
+
+.c-card {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: .1em;
+    border-left: 10px solid var(--bs-success);
+    margin-bottom: 1em;
+ }
+
+.c-card .c-card-header {
+    color: var(--bs-black);
+    padding: 1em;
+}
+
+.c-card .c-card-body {
+    padding: 0 1em;
+}
+
+.c-card.border-primary {
+    border-left: 10px solid var(--bs-blue);
+}
+
+.c-card.border-danger {
+    border-left: 10px solid var(--bs-danger);
+}
+
+.c-card.border-success {
+    border-left: 10px solid var(--bs-success);
+}
+
+.c-card.border-warning {
+    border-left: 10px solid var(--bs-warning);
+}
+
+.modal-button {
+    position: fixed !important;
+    top: 10em !important;
+    right: 10em !important;
+    z-index: 999 !important;
+    background: var(--bs-success) !important;
+    color: var(--bs-white) !important;
+    border-radius: 0.3em !important;
+    padding: .5em 1em !important;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2) !important;
+}
